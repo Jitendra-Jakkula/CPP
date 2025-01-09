@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const double PI = 3.14159; // Constant value of pi
+    double radius, perimeter;
+
+    // Input the radius of the circle
+    cout << "Enter the radius of the circle: ";
+    cin >> radius;
+
+    // Calculate the perimeter
+    perimeter = 2 * PI * radius;
+
+    // Output the result
+    cout << "The perimeter of the circle is: " << perimeter << endl;
+
+    return 0;
+}
+
